@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.env
+venv/
+env/
+
+# ML Model files (too large for GitHub)
+ml_model/model.pkl
+ml_model/vectorizer.pkl
+
+# Uploads and processed documents
+uploads/*
+!uploads/.gitkeep
+
+documents/hr/resumes/*
+!documents/hr/resumes/.gitkeep
+documents/finance/invoices/*
+!documents/finance/invoices/.gitkeep
+documents/finance/paystubs/*
+!documents/finance/paystubs/.gitkeep
+documents/legal/contracts/*
+!documents/legal/contracts/.gitkeep
+documents/unknown/*
+!documents/unknown/.gitkeep
+documents/duplicates/*
+!documents/duplicates/.gitkeep
+documents/miscellaneous/unreadable/*
+!documents/miscellaneous/unreadable/.gitkeep
+documents/miscellaneous/unsupported/*
+!documents/miscellaneous/unsupported/.gitkeep
+
+# Logs
+logs/processing_log.txt
+
+# AWS deployment files
+lambda_final.zip
+lambda_final2.zip
+lambda_final3.zip
+sklearn-complete.zip
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini

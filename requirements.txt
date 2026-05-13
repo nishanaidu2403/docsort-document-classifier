@@ -1,0 +1,12 @@
+flask
+scikit-learn==1.6.1
+pdfplumber
+python-docx
+pytesseract
+openpyxl
+python-pptx
+ollama
+pillow
+numpy
+scipy
+joblib
